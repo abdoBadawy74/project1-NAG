@@ -1,4 +1,4 @@
-import myImage from "./img.jpg";
+import myImage from "../img.jpg";
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
         {/* <img src="./img.png" alt="logo" />   ==>> this is incorrect */}
         {/* <img src={myImage} alt="logo" />  first way to add image in react */}
         <img
-          src={require("./img.jpg")}
+          src={require("../img.jpg")}
           alt="logo"
           style={{
             width: "500px",
