@@ -3,8 +3,5 @@ body {
 }
 
 .contianer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f1f1f1;
+  padding: 0 10px;
 }
