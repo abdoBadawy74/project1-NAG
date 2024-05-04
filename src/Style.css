@@ -1,9 +1,10 @@
-ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+body {
+  font-family: "Cairo", sans-serif;
 }
 
-.li{
-    color: red;
+.contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
 }
